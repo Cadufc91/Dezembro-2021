@@ -25,7 +25,7 @@ Um de nossos clientes solicitou a implementação de uma loja de filmes em seu s
 * Implemente a funcionalidade de adicionar/remover filmes a lista de favoritos do usuário.
 
 
-Links: 
+## Links: 
 
 API TMDB: [TMDB API Docs](https://developers.themoviedb.org/3/getting-started/introduction)
 
