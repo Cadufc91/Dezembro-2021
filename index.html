@@ -5,95 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>The Movie Database</title>
 </head>
 <body>
     <header>
         <nav class="menu">
             <div class="menu__logo">
-                <img src="./assets/images/logo.svg" alt="Logo da TMDB">
+                <img class="logo" src="./assets/images/logo.svg" alt="Logo da TMDB">
             </div>
             <div class="pesquisa">
                 <input class="pesquisa__busca" type="text" placeholder="Pesquisa">
             </div>
             <div class="componentes">
-                <button class="componentes__favoritos"><i class="fas fa-heart"></i></button>
-                <button class="componentes__carrinho"><i class="fas fa-shopping-cart"></i></button>
+                <ul>
+                    <li><a class="componentes__favoritos" href="#"><i class="fas fa-heart compras"></i></a></li>
+                    <li><a class="componentes__carrinho" href="#"><i class="fas fa-shopping-cart compras"></i></a></li>
+                </ul>
             </div>
         </nav>
     </header>
     <main>
         <div class="container">
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/lucifer.jpg" alt="Lucifer"></img>
+                    <figcaption>25 de janeiro de 2016</figcaption><button class="favoritar"><i class="fas fa-heart favorite"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Lucifer</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Crime, Ficção Científica & Fantasia</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/riverdale.jpg" alt="Riverdale"></img>
+                    <figcaption>26 de janeiro de 2017</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Riverdale</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Mistério, Drama & Crime</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/round 6.jpg" alt="Round 6"></img>
+                    <figcaption>17 de setembro de 2021</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Round 6</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Ação, Aventura, Mistério & Drama</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/spider man.jpg" alt="Homem-Aranha"></img>
+                    <figcaption>05 de julho de 2017</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Homem-Aranha de Volta Ao Lar</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Ação, Aventura, Ficção Científica & Drama</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/alerta vermelho.jpg" alt="Alerta Vermelho"></img>
+                    <figcaption>04 de novembro de 2021</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Alerta Vermelho</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Ação, Comédia, Crime & Thriller</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/dexter.jpg" alt="Dexter"></img>
+                    <figcaption>07 de novembro de 2021</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Dexter - New Blood</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Drama & Crime</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/flash.jpg" alt="Flash"></img>
+                    <figcaption>07 de outubro de 2014</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">The Flash</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Drama, Sci-Fi & Fantasia</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
             <div class="filmes">
-                <figure><img src="" alt=""></img>
-                    <figcaption></figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
+                <figure><img class="imagem" src="./assets/images/harry potter.jpg" alt="Harry Potter"></img>
+                    <figcaption>28 de novembro de 2021</figcaption><button class="favoritar"><i class="fas fa-heart"></i></button>
                 </figure>
-                <h1 class="titulo"></h1>
-                <h2 class="avaliacao"><span class="genero"></span></h2>
-                <h3 class="preco"></h3>
+                <div class="infos">
+                    <h1 class="titulo">Harry Potter - O Campeonato das Casas de Hogwarts</h1>
+                    <h2 class="avaliacao"><i class="fas fa-star">7</i><span class="genero">Realidade</span></h2>
+                    <h3 class="preco">R$ 79,99</h3>
+                </div>
                 <button class="adicionar">Adicionar</button>
             </div>
         </div>

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-size: 10px;
+    max-width: 928px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu{
+    align-items: center;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(21, 213, 213);
+}
+
+.logo{
+    height: 75px;
+    padding-left: 45px;
+    width: 180px;
+    color: white;
+}
+
+.pesquisa__busca{
+    border: 2px solid rgb(64, 128, 128);
+    border-radius: 5px;
+    height: 32px;
+    padding-left: 20px;
+    width: 520px;
+}
+
+.componentes{
+    display: flex;
+    flex-direction: row;
+}
+
+.componentes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.compras{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.componentes__favoritos, .componentes__carrinho{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filmes{
+    gap: 10px;
+    padding: 50px;
+}
+
+figure{
+    width: 25%;
+    position: relative;
+}
+
+figcaption{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 150%;
+    width: 100%;
+}
+
+.favoritar{
+    position: absolute;
+    margin-top: -1975px;
+    margin-left: 575px;
+}
+
+.favoritar i{
+    background: none;
+    border: none;
+    /*color: white;*/
+    padding: 0;
+    font-size: 20px;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.titulo{
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.avaliacao{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.avaliacao .genero{
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.preco{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.adicionar{
+    background: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+}
