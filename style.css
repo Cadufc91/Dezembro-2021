@@ -1,28 +1,28 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+
 main{
-    font-size: 10px;
-    /*max-width: 928px;*/
     font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
 }
 
 .menu{
     align-items: center;
-    height: 52px;
-    display: flex;
-    justify-content: space-around;
     background: rgb(21, 213, 213);
+    display: flex;
+    height: 52px;
+    justify-content: space-around;
 }
 
 .logo{
+    color: white;
     height: 75px;
     padding-left: 45px;
     width: 180px;
-    color: white;
 }
 
 .pesquisa__busca{
@@ -39,9 +39,9 @@ main{
 }
 
 .componentes ul{
-    list-style: none;
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 
 .compras{
@@ -62,13 +62,16 @@ main{
 }
 
 .filmes{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    padding: 50px;
-    width: 25%;
+    justify-content: space-between;
+    margin: 1%;
+    width: 23%;
 }
 
 figure{
-    /*width: 25%;*/
     position: relative;
 }
 
@@ -79,43 +82,52 @@ figure img{
 
 figcaption{
     color: white;
+    display: flex;
     font-size: 12px;
     font-weight: bold;
-    position: absolute;
+    justify-content: center;
     margin-top: -30px;
-    margin-left: 150%;
+    position: absolute;
     width: 100%;
 }
 
 .favoritar{
+    left: 0;
+    margin-top: -610px;
     position: absolute;
-    margin-top: -1975px;
-    margin-left: 575px;
+    top: 0;
+
 }
 
 .favoritar i{
     background: none;
-    border: none;
-    /*color: white;*/
-    padding: 0;
+    border: 0 none;
+    color: white;
     font-size: 20px;
+    padding: 0;
+    position: absolute;
+    transform: translate(-130px, -130px);
 }
 
 .infos{
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
     gap: 9px;
 }
 
 .titulo{
-    margin-top: 5px;
+    align-items: center;
+    display: flex;
     letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 12px;
 }
 
 .avaliacao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
     gap: 5px;
 }
 
@@ -130,11 +142,20 @@ figcaption{
 }
 
 .adicionar{
+    align-items: center;
     background: blue;
     border: none;
     color: white;
+    display: flex;
     font-size: 20px;
-    margin-top: 15px;
     height: 40px;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: none;
     width: 100%;
+}
+
+.adicionar a{
+    color: white;
+    text-decoration: none;
 }
